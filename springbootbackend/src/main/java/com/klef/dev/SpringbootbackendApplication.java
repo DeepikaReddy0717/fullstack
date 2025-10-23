@@ -16,7 +16,7 @@ public class SpringbootbackendApplication extends SpringBootServletInitializer
 	}
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(JenkinsBackendApplication.class);
+        return builder.sources(SpringbootbackendApplication.class);
     }
 
 
